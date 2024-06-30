@@ -9,7 +9,7 @@ pytest</br>
 The whole setup is containerized. The dockerfile has everything needed for setting up both python and running tests</br>
 
 **Prerequisites/Setup for docker based run:**
-</br>Created a free Neon DB account, acquire an API key</br>
+</br>Created a free <a href=https://neon.tech/>Neon DB account</a>, acquire an API key</br>
 Docker is installed on the local system</br>
 
 **How to Run**
