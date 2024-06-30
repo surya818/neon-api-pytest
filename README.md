@@ -38,3 +38,5 @@ Our docker run command has a -v option, which creates a volume, and this is how 
 
 Navigate to the root directory
 Enter the command pytest and hit enter, and the tests start running
+
+![image](https://github.com/surya818/neon-api-pytest/assets/7116020/3abe0e3d-82c5-4402-8baa-eaf65796a907)
