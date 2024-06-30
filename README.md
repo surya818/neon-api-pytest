@@ -3,16 +3,16 @@ Neon-API test automation framework in Python
 
 Test Automation framework in python to test Neon database REST API
 
-Tech Stack:
+**Tech Stack:**
 Python
 pytest
 The whole setup is containerized. The dockerfile has everything needed for setting up both python and running tests
 
-Prerequisites/Setup for docker based run:
+**Prerequisites/Setup for docker based run:**
 Created a free Neon DB account, acquire an API key
 Docker is installed on the local system
 
-How to Run
+**How to Run**
 
 Clone this repo
 Save the Neon API key in an environment variable called APIKEY
@@ -31,7 +31,10 @@ Copy the requirements.test and run the pip install, to setup pytest, the pythong
 
 Our docker run command has a -v option, which creates a volume, and this is how we copy the test result reports to the host machine
 
-How to Run: (Alternate way/ Non Docker ) (If you want to just run the tests locally, without using Docker) Prerequisites:
+![image](https://github.com/surya818/neon-api-pytest/assets/7116020/e427150f-78d2-4c3c-a6fb-caa4c73d45ed)
+
+
+**How to Run: (Alternate way/ Non Docker )** (If you want to just run the tests locally, without using Docker) 
 
 Navigate to the root directory
 Enter the command pytest and hit enter, and the tests start running
