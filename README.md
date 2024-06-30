@@ -17,6 +17,7 @@ Docker is installed on the local system</br>
 
 </br>- Clone this repo</br>
 - Save the Neon API key in an environment variable called APIKEY</br>
+_export APIKEY=<YOUR_API_KEY>_
 - Navigate to root directory of the repo</br>
 - Build the docker image with command ==> docker build -t neon-test:1.0 .</br>
 - Verify docker image is built successfully using docker images command</br>
