@@ -7,6 +7,7 @@ Test Automation framework in python to test <a href=https://api-docs.neon.tech/r
 Python </br>
 pytest</br>
 The whole setup is containerized. The dockerfile has everything needed for setting up both python and running tests</br>
+And finally, we used an alpine python docker image and the size is close to 70 MB as compared to python base image which is around 10 times bigger
 
 **Prerequisites/Setup for docker based run:**
 </br>Created a free <a href=https://neon.tech/>Neon DB account</a>, acquire an API key</br>
